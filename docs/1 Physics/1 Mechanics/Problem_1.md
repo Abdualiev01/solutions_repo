@@ -1,6 +1,6 @@
 # Problem 1
 
-## Projectile motion involves the motion of an object launched into the air under the influence of gravity, following a parabolic trajectory. It is analyzed in two components: horizontal and vertical motion, which are independent of each other. Here’s a detailed breakdown with formulas:
+ Projectile motion involves the motion of an object launched into the air under the influence of gravity, following a parabolic trajectory. It is analyzed in two components: horizontal and vertical motion, which are independent of each other. Here’s a detailed breakdown with formulas:
 
 ---
 
@@ -19,9 +19,11 @@
 ### **Horizontal Motion**  
 The horizontal motion is uniform because there is no horizontal acceleration (ignoring air resistance).  
 - **Horizontal velocity:**  
+  
   \[
   u_x = u \cos \theta
-  \]  
+  \]
+    
 - **Horizontal displacement:**  
   \[
   x = u_x t = u \cos \theta \cdot t
