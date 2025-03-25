@@ -118,17 +118,21 @@ Where:
 A car starts from rest and accelerates uniformly at \(2 \, \text{m/s}^2\) for \(5 \, \text{seconds}\). Find its final velocity and the displacement during this time.
 
 #### Solution:
-1. Final velocity:  
-   Using \(v = u + at\),  
-   \[
-   v = 0 + (2)(5) = 10 \, \text{m/s}.
-   \]
 
-2. Displacement:  
-   Using \(s = ut + \frac{1}{2}at^2\),  
+1. **Final velocity**:  
+   Using the formula \(v = u + at\), where \(u\) is the initial velocity, \(a\) is acceleration, and \(t\) is time:  
    \[
-   s = 0(5) + \frac{1}{2}(2)(5^2) = 25 \, \text{m}.
-   \]
+   v = 0 + (2)(5) = 10 \, \text{m/s}
+   \]  
+   The final velocity is \(10 \, \text{m/s}\).
+
+2. **Displacement**:  
+   Using the formula \(s = ut + \frac{1}{2}at^2\), where \(s\) is displacement, \(u\) is initial velocity, \(a\) is acceleration, and \(t\) is time:  
+   \[
+   s = 0(5) + \frac{1}{2}(2)(5^2) = 25 \, \text{m}
+   \]  
+   The displacement is \(25 \, \text{m}\).
+
+---
 
 The car reaches a velocity of \(10 \, \text{m/s}\) and covers \(25 \, \text{m}\) during the time.
-
