@@ -130,109 +130,134 @@
 <div class="section" itemprop="articleBody">
 <h1 id="problem-2">Problem 2</h1>
 <h1 id="description-of-motion">Description of Motion</h1>
-<p>Motion is the change in position of an object with respect to time. It is described using concepts such as displacement, velocity, acceleration, and time.</p>
+<p>Motion describes the change in position of an object over time. It is categorized using several measurable quantities such as displacement, velocity, acceleration, and time. Below is a detailed explanation with formulas and descriptions.</p>
+<hr/>
 <h2 id="1-displacement-vecs">1. Displacement (<span class="arithmatex">\(\vec{s}\)</span>)</h2>
-<p>Displacement is the shortest distance between the initial and final positions of an object, along with direction.</p>
+<p>Displacement is the shortest distance between the initial and final positions of an object, along with the direction.</p>
 <h3 id="formula">Formula:</h3>
-<p>[
+<div class="arithmatex">\[
 \vec{s} = \vec{x}_f - \vec{x}_i
-]
-Where:
-- <span class="arithmatex">\(\vec{s}\)</span> = displacement
-- <span class="arithmatex">\(\vec{x}_f\)</span> = final position
-- <span class="arithmatex">\(\vec{x}_i\)</span> = initial position</p>
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(\vec{s}\)</span>: Displacement (a vector quantity with magnitude and direction)<br/>
+- <span class="arithmatex">\(\vec{x}_f\)</span>: Final position (vector)<br/>
+- <span class="arithmatex">\(\vec{x}_i\)</span>: Initial position (vector)  </p>
+<h3 id="explanation">Explanation:</h3>
+<p>This formula calculates the displacement, which shows how far an object has moved and in what direction. For example, if an object starts at <span class="arithmatex">\(x = 0\)</span> and moves to <span class="arithmatex">\(x = 10 \, \text{m}\)</span>, the displacement is <span class="arithmatex">\(10 \, \text{m}\)</span> forward.</p>
 <h3 id="graph">Graph:</h3>
-<p>In a position-time graph, the slope represents the velocity. Displacement can be visualized as the difference in position values at two time intervals.</p>
-<h2 id="2-velocity-vecv">2. Velocity (<span class="arithmatex">\(\vec{v}\)</span>)</h2>
-<p>Velocity is the rate of change of displacement with respect to time.</p>
+<p>In a position-time graph, displacement can be visualized as the vertical difference between two points on the curve.</p>
+<hr/>
+<h2 id="2-velocity-v">2. Velocity (<span class="arithmatex">\(v\)</span>)</h2>
+<p>Velocity is the rate of change of displacement with respect to time. It describes how fast an object is moving and in which direction.</p>
 <h3 id="formula_1">Formula:</h3>
-<p>[
-\vec{v} = \frac{\vec{s}}{t}
-]
-Where:
-- <span class="arithmatex">\(\vec{v}\)</span> = velocity
-- <span class="arithmatex">\(\vec{s}\)</span> = displacement
-- <span class="arithmatex">\(t\)</span> = time</p>
-<p><strong>For instantaneous velocity:</strong>
-[
-\vec{v} = \frac{d\vec{x}}{dt}
-]</p>
+<div class="arithmatex">\[
+v = \frac{\Delta \vec{s}}{\Delta t}
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(v\)</span>: Velocity (a vector quantity)<br/>
+- <span class="arithmatex">\(\Delta \vec{s}\)</span>: Displacement (change in position)<br/>
+- <span class="arithmatex">\(\Delta t\)</span>: Change in time  </p>
+<h3 id="explanation_1">Explanation:</h3>
+<p>Velocity measures how quickly displacement changes over time. It is different from speed, as it includes direction. For example, a car moving at <span class="arithmatex">\(60 \, \text{km/h}\)</span> east has a velocity of <span class="arithmatex">\(60 \, \text{km/h}\)</span> east.</p>
 <h3 id="graph_1">Graph:</h3>
-<p>In a position-time graph, the slope of the tangent at any point represents the instantaneous velocity.</p>
-<h2 id="3-acceleration-veca">3. Acceleration (<span class="arithmatex">\(\vec{a}\)</span>)</h2>
-<p>Acceleration is the rate of change of velocity with respect to time.</p>
+<p>In a displacement-time graph, velocity is represented by the slope of the curve. A steeper slope indicates a higher velocity.</p>
+<hr/>
+<h2 id="3-acceleration-a">3. Acceleration (<span class="arithmatex">\(a\)</span>)</h2>
+<p>Acceleration is the rate of change of velocity with respect to time. It describes how quickly an object speeds up or slows down.</p>
 <h3 id="formula_2">Formula:</h3>
-<p>[
-\vec{a} = \frac{\Delta\vec{v}}{t}
-]
-Where:
-- <span class="arithmatex">\(\vec{a}\)</span> = acceleration
-- <span class="arithmatex">\(\Delta\vec{v}\)</span> = change in velocity (<span class="arithmatex">\(\vec{v}_f - \vec{v}_i\)</span>)
-- <span class="arithmatex">\(t\)</span> = time</p>
-<p><strong>For instantaneous acceleration:</strong>
-[
-\vec{a} = \frac{d\vec{v}}{dt}
-]</p>
+<div class="arithmatex">\[
+a = \frac{\Delta v}{\Delta t}
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(a\)</span>: Acceleration (a vector quantity)<br/>
+- <span class="arithmatex">\(\Delta v\)</span>: Change in velocity<br/>
+- <span class="arithmatex">\(\Delta t\)</span>: Change in time  </p>
+<h3 id="explanation_2">Explanation:</h3>
+<p>Acceleration quantifies how fast the velocity of an object changes. A positive acceleration indicates speeding up, while a negative acceleration (also called deceleration) indicates slowing down. For example, a car increasing its velocity from <span class="arithmatex">\(0 \, \text{m/s}\)</span> to <span class="arithmatex">\(20 \, \text{m/s}\)</span> in <span class="arithmatex">\(5 \, \text{seconds}\)</span> has an acceleration of <span class="arithmatex">\(4 \, \text{m/s}^2\)</span>.</p>
 <h3 id="graph_2">Graph:</h3>
-<p>In a velocity-time graph, the slope represents acceleration. The area under the curve represents the change in velocity.</p>
-<h2 id="4-equations-of-motion-for-uniform-acceleration">4. Equations of Motion (For Uniform Acceleration)</h2>
-<h3 id="1st-equation">1st Equation:</h3>
-<p>[
-\vec{v} = \vec{u} + \vec{a}t
-]
-Where:
-- <span class="arithmatex">\(\vec{v}\)</span> = final velocity
-- <span class="arithmatex">\(\vec{u}\)</span> = initial velocity
-- <span class="arithmatex">\(\vec{a}\)</span> = acceleration
-- <span class="arithmatex">\(t\)</span> = time</p>
-<h3 id="2nd-equation">2nd Equation:</h3>
-<p>[
-\vec{s} = \vec{u}t + \frac{1}{2}\vec{a}t^2
-]
-Where:
-- <span class="arithmatex">\(\vec{s}\)</span> = displacement</p>
-<h3 id="3rd-equation">3rd Equation:</h3>
-<div class="arithmatex">\[
-\vec{v}^2 = \vec{u}^2 + 2\vec{a}\vec{s}
-\]</div>
-<h3 id="graph_3">Graph:</h3>
-<p>In a velocity-time graph:
-- The slope indicates acceleration.
-- The area under the curve equals displacement.</p>
-<h2 id="5-circular-motion">5. Circular Motion</h2>
-<p>In circular motion, the object moves along a circular path.</p>
-<h3 id="angular-displacement-theta">Angular Displacement (<span class="arithmatex">\(\theta\)</span>):</h3>
-<p>[
-\theta = \frac{s}{r}
-]
-Where:
-- <span class="arithmatex">\(s\)</span> = arc length
-- <span class="arithmatex">\(r\)</span> = radius</p>
-<h3 id="angular-velocity-omega">Angular Velocity (<span class="arithmatex">\(\omega\)</span>):</h3>
-<div class="arithmatex">\[
-\omega = \frac{d\theta}{dt}
-\]</div>
-<h3 id="angular-acceleration-alpha">Angular Acceleration (<span class="arithmatex">\(\alpha\)</span>):</h3>
-<div class="arithmatex">\[
-\alpha = \frac{d\omega}{dt}
-\]</div>
-<h3 id="centripetal-acceleration-a_c">Centripetal Acceleration (<span class="arithmatex">\(a_c\)</span>):</h3>
-<p>[
-\vec{a}_c = \frac{\vec{v}^2}{r}
-]
-Where:
-- <span class="arithmatex">\(\vec{v}\)</span> = tangential velocity
-- <span class="arithmatex">\(r\)</span> = radius of the circular path</p>
-<h3 id="graph_4">Graph:</h3>
-<p>In circular motion, angular velocity and acceleration are often plotted as functions of time to describe periodicity.</p>
-<h2 id="graphical-summary">Graphical Summary:</h2>
+<p>In a velocity-time graph, acceleration is represented by the slope. A constant slope indicates constant acceleration, while a curved slope indicates changing acceleration.</p>
+<hr/>
+<h2 id="4-equations-of-motion-for-constant-acceleration">4. Equations of Motion (For Constant Acceleration)</h2>
+<p>The equations of motion are used to calculate displacement, velocity, and time when acceleration is constant.</p>
+<h3 id="equations">Equations:</h3>
 <ol>
-<li><strong>Position-Time Graph:</strong> Slope represents velocity.</li>
-<li><strong>Velocity-Time Graph:</strong> Slope represents acceleration; area under the curve represents displacement.</li>
-<li><strong>Acceleration-Time Graph:</strong> Area under the curve represents change in velocity.</li>
+<li><span class="arithmatex">\(v = u + at\)</span> </li>
+<li>
+<p>Final velocity (<span class="arithmatex">\(v\)</span>) is equal to initial velocity (<span class="arithmatex">\(u\)</span>) plus acceleration (<span class="arithmatex">\(a\)</span>) multiplied by time (<span class="arithmatex">\(t\)</span>).</p>
+</li>
+<li>
+<p><span class="arithmatex">\(s = ut + \frac{1}{2}at^2\)</span> </p>
+</li>
+<li>
+<p>Displacement (<span class="arithmatex">\(s\)</span>) is calculated using initial velocity (<span class="arithmatex">\(u\)</span>), time (<span class="arithmatex">\(t\)</span>), and acceleration (<span class="arithmatex">\(a\)</span>).</p>
+</li>
+<li>
+<p><span class="arithmatex">\(v^2 = u^2 + 2as\)</span> </p>
+</li>
+<li>Relates the final velocity (<span class="arithmatex">\(v\)</span>) to the initial velocity (<span class="arithmatex">\(u\)</span>), acceleration (<span class="arithmatex">\(a\)</span>), and displacement (<span class="arithmatex">\(s\)</span>).</li>
+</ol>
+<h3 id="explanation_3">Explanation:</h3>
+<p>These equations are used to predict the motion of objects under constant acceleration. For example:
+- A ball dropped from rest can use these equations to calculate its velocity or displacement at any point during its fall.</p>
+<h3 id="graphs">Graphs:</h3>
+<p>Each equation corresponds to a specific type of graph:
+- <span class="arithmatex">\(v = u + at\)</span>: Velocity-time graph (straight line).<br/>
+- <span class="arithmatex">\(s = ut + \frac{1}{2}at^2\)</span>: Displacement-time graph (parabolic curve).<br/>
+- <span class="arithmatex">\(v^2 = u^2 + 2as\)</span>: Velocity-displacement graph (non-linear curve).</p>
+<hr/>
+<h2 id="5-summary-of-key-quantities-and-units">5. Summary of Key Quantities and Units</h2>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Symbol</th>
+<th>Formula</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Displacement</td>
+<td><span class="arithmatex">\(\vec{s}\)</span></td>
+<td><span class="arithmatex">\(\vec{x}_f - \vec{x}_i\)</span></td>
+<td>Meter (<span class="arithmatex">\(\text{m}\)</span>)</td>
+</tr>
+<tr>
+<td>Velocity</td>
+<td><span class="arithmatex">\(v\)</span></td>
+<td><span class="arithmatex">\(\frac{\Delta \vec{s}}{\Delta t}\)</span></td>
+<td>Meter/second (<span class="arithmatex">\(\text{m/s}\)</span>)</td>
+</tr>
+<tr>
+<td>Acceleration</td>
+<td><span class="arithmatex">\(a\)</span></td>
+<td><span class="arithmatex">\(\frac{\Delta v}{\Delta t}\)</span></td>
+<td>Meter/second² (<span class="arithmatex">\(\text{m/s}^2\)</span>)</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="graphical-summary">Graphical Summary</h2>
+<ol>
+<li><strong>Position-Time Graph</strong>:  </li>
+<li>Slope = Velocity  </li>
+<li>
+<p>Steeper slope = Higher velocity  </p>
+</li>
+<li>
+<p><strong>Velocity-Time Graph</strong>:  </p>
+</li>
+<li>Slope = Acceleration  </li>
+<li>
+<p>Area under curve = Displacement  </p>
+</li>
+<li>
+<p><strong>Acceleration-Time Graph</strong>:  </p>
+</li>
+<li>Area under curve = Change in velocity  </li>
 </ol>
 <hr/>
-<p>This Markdown document contains formulas, descriptions, and references to graphs that can be used for visualizing motion.</p>
+<p>This Markdown file is structured to provide clear descriptions of motion with readable formulas, their meanings, and relevant graphs. Let me know if you want me to add more! </p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
