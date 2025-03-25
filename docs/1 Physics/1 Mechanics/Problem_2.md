@@ -1,133 +1,120 @@
-# Problem 2 -  Velocity (\(v\))
+# Problem 1 - Description of Motion
 
-Velocity describes the rate of change of displacement with respect to time. It is a vector quantity, meaning it has both magnitude and direction.
+Motion describes the change in position of an object over time. It is categorized using several measurable quantities such as displacement, velocity, acceleration, and time. Below is a detailed explanation with formulas and descriptions.
 
 ---
 
-## 1. Average Velocity
+## 1. Displacement (\(\vec{s}\))
+
+Displacement is the shortest distance between the initial and final positions of an object, along with the direction.
 
 ### Formula:
 \[
-v_{avg} = \frac{\Delta \vec{s}}{\Delta t}
+\vec{s} = \vec{x}_f - \vec{x}_i
 \]
 
 Where:  
-- \(v_{avg}\): Average velocity (vector quantity)  
-- \(\Delta \vec{s}\): Displacement (final position minus initial position)  
-- \(\Delta t\): Time interval  
+- \(\vec{s}\): Displacement (a vector quantity with magnitude and direction)  
+- \(\vec{x}_f\): Final position (vector)  
+- \(\vec{x}_i\): Initial position (vector)  
 
 ### Explanation:
-Average velocity measures how quickly an object changes its position over a specific time interval. For example, if an object moves \(20 \, \text{m}\) east in \(4 \, \text{s}\), the average velocity is \(5 \, \text{m/s}\) east.
+This formula calculates the displacement, which shows how far an object has moved and in what direction. For example, if an object starts at \(x = 0\) and moves to \(x = 10 \, \text{m}\), the displacement is \(10 \, \text{m}\) forward.
+
+### Graph:
+In a position-time graph, displacement can be visualized as the vertical difference between two points on the curve.
 
 ---
 
-## 2. Instantaneous Velocity
+## 2. Velocity (\(v\))
+
+Velocity is the rate of change of displacement with respect to time. It describes how fast an object is moving and in which direction.
 
 ### Formula:
 \[
-v = \lim_{\Delta t \to 0} \frac{\Delta \vec{s}}{\Delta t} = \frac{d\vec{s}}{dt}
+v = \frac{\Delta \vec{s}}{\Delta t}
 \]
 
 Where:  
-- \(v\): Instantaneous velocity (vector quantity)  
-- \(d\vec{s}\): Infinitesimally small displacement  
-- \(dt\): Infinitesimally small time interval  
+- \(v\): Velocity (a vector quantity)  
+- \(\Delta \vec{s}\): Displacement (change in position)  
+- \(\Delta t\): Change in time  
 
 ### Explanation:
-Instantaneous velocity is the velocity of an object at a particular moment in time. It is obtained by taking the derivative of displacement (\(\vec{s}\)) with respect to time (\(t\)). For example, in non-uniform motion, the instantaneous velocity at a given time tells you how fast and in which direction the object is moving at that specific moment.
+Velocity measures how quickly displacement changes over time. It is different from speed, as it includes direction. For example, a car moving at \(60 \, \text{km/h}\) east has a velocity of \(60 \, \text{km/h}\) east.
+
+### Graph:
+In a displacement-time graph, velocity is represented by the slope of the curve. A steeper slope indicates a higher velocity.
 
 ---
 
-## 3. Relation Between Velocity and Speed
+## 3. Acceleration (\(a\))
 
-- **Velocity** is a vector quantity, considering direction (e.g., \(5 \, \text{m/s}\) east).  
-- **Speed** is a scalar quantity, considering only magnitude (e.g., \(5 \, \text{m/s}\)).
+Acceleration is the rate of change of velocity with respect to time. It describes how quickly an object speeds up or slows down.
 
-### Key Formula for Magnitude:
+### Formula:
 \[
-|\vec{v}| = \text{Speed}
-\]
-
----
-
-## 4. Velocity-Time Graph
-
-### Description:
-- A **straight line** on the graph indicates constant velocity.
-- A **sloping line** indicates acceleration or deceleration.
-- The **area under the curve** represents displacement.
-
----
-
-## 5. Equations of Velocity (For Uniform Acceleration)
-
-When acceleration is constant, velocity is calculated using the following equations of motion:
-
-### Formula 1: Final Velocity
-\[
-v = u + at
+a = \frac{\Delta v}{\Delta t}
 \]
 
 Where:  
-- \(v\): Final velocity  
-- \(u\): Initial velocity  
-- \(a\): Acceleration  
-- \(t\): Time  
-
-### Formula 2: Velocity-Displacement Relation
-\[
-v^2 = u^2 + 2as
-\]
-
-Where:  
-- \(v\): Final velocity  
-- \(u\): Initial velocity  
-- \(a\): Acceleration  
-- \(s\): Displacement  
+- \(a\): Acceleration (a vector quantity)  
+- \(\Delta v\): Change in velocity  
+- \(\Delta t\): Change in time  
 
 ### Explanation:
-- The first equation calculates the final velocity after a time \(t\), given the initial velocity and constant acceleration.  
-- The second equation relates velocity to displacement when time is not given.
+Acceleration quantifies how fast the velocity of an object changes. A positive acceleration indicates speeding up, while a negative acceleration (also called deceleration) indicates slowing down. For example, a car increasing its velocity from \(0 \, \text{m/s}\) to \(20 \, \text{m/s}\) in \(5 \, \text{seconds}\) has an acceleration of \(4 \, \text{m/s}^2\).
+
+### Graph:
+In a velocity-time graph, acceleration is represented by the slope. A constant slope indicates constant acceleration, while a curved slope indicates changing acceleration.
 
 ---
 
-## 6. Summary of Key Points
+## 4. Equations of Motion (For Constant Acceleration)
 
-- Velocity is the rate of change of displacement with respect to time.  
-- It is a vector quantity, meaning it has both magnitude and direction.  
-- The slope of a displacement-time graph represents velocity.  
-- The area under a velocity-time graph gives displacement.
+The equations of motion are used to calculate displacement, velocity, and time when acceleration is constant.
+
+### Equations:
+1. \(v = u + at\)  
+   - Final velocity (\(v\)) is equal to initial velocity (\(u\)) plus acceleration (\(a\)) multiplied by time (\(t\)).
+
+2. \(s = ut + \frac{1}{2}at^2\)  
+   - Displacement (\(s\)) is calculated using initial velocity (\(u\)), time (\(t\)), and acceleration (\(a\)).
+
+3. \(v^2 = u^2 + 2as\)  
+   - Relates the final velocity (\(v\)) to the initial velocity (\(u\)), acceleration (\(a\)), and displacement (\(s\)).
+
+### Explanation:
+These equations are used to predict the motion of objects under constant acceleration. For example:
+- A ball dropped from rest can use these equations to calculate its velocity or displacement at any point during its fall.
+
+### Graphs:
+Each equation corresponds to a specific type of graph:
+- \(v = u + at\): Velocity-time graph (straight line).  
+- \(s = ut + \frac{1}{2}at^2\): Displacement-time graph (parabolic curve).  
+- \(v^2 = u^2 + 2as\): Velocity-displacement graph (non-linear curve).
 
 ---
 
-## Graphical Representation
+## 5. Summary of Key Quantities and Units
 
-1. **Displacement-Time Graph**:  
-   - The slope of the curve at any point gives the instantaneous velocity.
+| Quantity        | Symbol         | Formula                        | Unit           |
+|-----------------|---------------|--------------------------------|----------------|
+| Displacement    | \(\vec{s}\)    | \(\vec{x}_f - \vec{x}_i\)       | Meter (\(\text{m}\)) |
+| Velocity        | \(v\)         | \(\frac{\Delta \vec{s}}{\Delta t}\) | Meter/second (\(\text{m/s}\)) |
+| Acceleration    | \(a\)         | \(\frac{\Delta v}{\Delta t}\)       | Meter/second² (\(\text{m/s}^2\)) |
+
+---
+
+## Graphical Summary
+
+1. **Position-Time Graph**:  
+   - Slope = Velocity  
+   - Steeper slope = Higher velocity  
 
 2. **Velocity-Time Graph**:  
-   - A horizontal line indicates constant velocity.  
-   - A sloped line indicates acceleration or deceleration.  
-   - The area under the curve gives the total displacement.  
+   - Slope = Acceleration  
+   - Area under curve = Displacement  
 
----
-
-### Example Problem (Using a Velocity-Time Graph)
-
-#### Question:
-A car starts from rest and accelerates uniformly at \(2 \, \text{m/s}^2\) for \(5 \, \text{seconds}\). Find its final velocity and the displacement during this time.
-
-#### Solution:
-1. Final velocity:  
-   Using \(v = u + at\),  
-   \[
-   v = 0 + (2)(5) = 10 \, \text{m/s}.
-   \]
-
-2. Displacement:  
-   Using \(s = ut + \frac{1}{2}at^2\),  
-   \[
-   s = 0(5) + \frac{1}{2}(2)(5^2) = 25 \, \text{m}.
-   \]
-
-The car reaches a velocity of \(10 \, \text{m/s}\) and covers \(25 \, \text{m}\) during the time.
+3. **Acceleration-Time Graph**:  
+   - Area under curve = Change in velocity  
