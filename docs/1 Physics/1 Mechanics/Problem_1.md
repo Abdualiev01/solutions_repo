@@ -76,13 +76,13 @@ The equations of motion are used to calculate displacement, velocity, and time w
 
 ### Equations:
 1. \(v = u + at\)  
-   - Final velocity (\(v\)) is equal to initial velocity (\(u\)) plus acceleration (\(a\)) multiplied by time (\(t\)).
+- Final velocity (\(v\)) is equal to initial velocity (\(u\)) plus acceleration (\(a\)) multiplied by time (\(t\)).
 
 2. \(s = ut + \frac{1}{2}at^2\)  
-   - Displacement (\(s\)) is calculated using initial velocity (\(u\)), time (\(t\)), and acceleration (\(a\)).
+- Displacement (\(s\)) is calculated using initial velocity (\(u\)), time (\(t\)), and acceleration (\(a\)).
 
 3. \(v^2 = u^2 + 2as\)  
-   - Relates the final velocity (\(v\)) to the initial velocity (\(u\)), acceleration (\(a\)), and displacement (\(s\)).
+- Relates the final velocity (\(v\)) to the initial velocity (\(u\)), acceleration (\(a\)), and displacement (\(s\)).
 
 ### Explanation:
 These equations are used to predict the motion of objects under constant acceleration. For example:
