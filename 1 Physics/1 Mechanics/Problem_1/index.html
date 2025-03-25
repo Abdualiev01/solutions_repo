@@ -6,13 +6,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Problem 1 - Physics and Mathematics</title>
+<title>Problem 1 - Description of Motion - Physics and Mathematics</title>
 <link href="../../../css/theme.css" rel="stylesheet"/>
 <link href="../../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Problem 1";
+        var mkdocs_page_name = "Problem 1 - Description of Motion";
         var mkdocs_page_input_path = "1 Physics/1 Mechanics/Problem_1.md";
         var mkdocs_page_url = null;
       </script>
@@ -46,25 +46,55 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal current">1 Mechanics</a>
 <ul class="current">
-<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1 - Description of Motion</a>
 <ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="#key-variables">Key Variables</a>
+<li class="toctree-l3"><a class="reference internal" href="#1-displacement-vecs">1. Displacement (\(\vec{s}\))</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#formula">Formula:</a>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#horizontal-motion">Horizontal Motion</a>
+<li class="toctree-l4"><a class="reference internal" href="#explanation">Explanation:</a>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#vertical-motion">Vertical Motion</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#time-of-flight">Time of Flight</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#range-r">Range (\( R \))</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#maximum-height-h_textmax">Maximum Height (\( h_{\text{max}} \))</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#trajectory-equation">Trajectory Equation</a>
+<li class="toctree-l4"><a class="reference internal" href="#graph">Graph:</a>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
+<li class="toctree-l3"><a class="reference internal" href="#2-velocity-v">2. Velocity (\(v\))</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#formula_1">Formula:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#explanation_1">Explanation:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#graph_1">Graph:</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-acceleration-a">3. Acceleration (\(a\))</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#formula_2">Formula:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#explanation_2">Explanation:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#graph_2">Graph:</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#4-equations-of-motion-for-constant-acceleration">4. Equations of Motion (For Constant Acceleration)</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#equations">Equations:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#explanation_3">Explanation:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#graphs">Graphs:</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#5-summary-of-key-quantities-and-units">5. Summary of Key Quantities and Units</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#graphical-summary">Graphical Summary</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2 - Velocity (\(v\))</a>
 </li>
 </ul>
 </li>
@@ -134,7 +164,7 @@
 <li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
 <li class="breadcrumb-item">1 Physics</li>
 <li class="breadcrumb-item">1 Mechanics</li>
-<li class="breadcrumb-item active">Problem 1</li>
+<li class="breadcrumb-item active">Problem 1 - Description of Motion</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -142,80 +172,138 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="problem-1">Problem 1</h1>
-<p>Projectile motion involves the motion of an object launched into the air under the influence of gravity, following a parabolic trajectory. It is analyzed in two components: horizontal and vertical motion, which are independent of each other. Here’s a detailed breakdown with formulas:</p>
+<h1 id="problem-1-description-of-motion">Problem 1 - Description of Motion</h1>
+<p>Motion describes the change in position of an object over time. It is categorized using several measurable quantities such as displacement, velocity, acceleration, and time. Below is a detailed explanation with formulas and descriptions.</p>
 <hr/>
-<h3 id="key-variables"><strong>Key Variables</strong></h3>
-<ul>
-<li><span class="arithmatex">\( u \)</span>: Initial velocity  </li>
-<li><span class="arithmatex">\( \theta \)</span>: Angle of projection  </li>
-<li><span class="arithmatex">\( g \)</span>: Acceleration due to gravity (<span class="arithmatex">\( 9.8 \, \text{m/s}^2 \)</span>)  </li>
-<li><span class="arithmatex">\( t \)</span>: Time of flight  </li>
-<li><span class="arithmatex">\( R \)</span>: Range (horizontal distance covered)  </li>
-<li><span class="arithmatex">\( h_{\text{max}} \)</span>: Maximum height  </li>
-<li><span class="arithmatex">\( x \)</span>: Horizontal displacement  </li>
-<li><span class="arithmatex">\( y \)</span>: Vertical displacement  </li>
-</ul>
+<h2 id="1-displacement-vecs">1. Displacement (<span class="arithmatex">\(\vec{s}\)</span>)</h2>
+<p>Displacement is the shortest distance between the initial and final positions of an object, along with the direction.</p>
+<h3 id="formula">Formula:</h3>
+<div class="arithmatex">\[
+\vec{s} = \vec{x}_f - \vec{x}_i
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(\vec{s}\)</span>: Displacement (a vector quantity with magnitude and direction)<br/>
+- <span class="arithmatex">\(\vec{x}_f\)</span>: Final position (vector)<br/>
+- <span class="arithmatex">\(\vec{x}_i\)</span>: Initial position (vector)  </p>
+<h3 id="explanation">Explanation:</h3>
+<p>This formula calculates the displacement, which shows how far an object has moved and in what direction. For example, if an object starts at <span class="arithmatex">\(x = 0\)</span> and moves to <span class="arithmatex">\(x = 10 \, \text{m}\)</span>, the displacement is <span class="arithmatex">\(10 \, \text{m}\)</span> forward.</p>
+<h3 id="graph">Graph:</h3>
+<p>In a position-time graph, displacement can be visualized as the vertical difference between two points on the curve.</p>
 <hr/>
-<h3 id="horizontal-motion"><strong>Horizontal Motion</strong></h3>
-<p>The horizontal motion is uniform because there is no horizontal acceleration (ignoring air resistance).<br/>
-- <strong>Horizontal velocity:</strong> </p>
-<p>$$<br/>
-  u_x = u \cos theta
-  $$</p>
-<ul>
-<li><strong>Horizontal displacement:</strong><br/>
-  $$
-  x = u_x t = u \cos \theta \cdot 
-  $$  </li>
-</ul>
+<h2 id="2-velocity-v">2. Velocity (<span class="arithmatex">\(v\)</span>)</h2>
+<p>Velocity is the rate of change of displacement with respect to time. It describes how fast an object is moving and in which direction.</p>
+<h3 id="formula_1">Formula:</h3>
+<div class="arithmatex">\[
+v = \frac{\Delta \vec{s}}{\Delta t}
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(v\)</span>: Velocity (a vector quantity)<br/>
+- <span class="arithmatex">\(\Delta \vec{s}\)</span>: Displacement (change in position)<br/>
+- <span class="arithmatex">\(\Delta t\)</span>: Change in time  </p>
+<h3 id="explanation_1">Explanation:</h3>
+<p>Velocity measures how quickly displacement changes over time. It is different from speed, as it includes direction. For example, a car moving at <span class="arithmatex">\(60 \, \text{km/h}\)</span> east has a velocity of <span class="arithmatex">\(60 \, \text{km/h}\)</span> east.</p>
+<h3 id="graph_1">Graph:</h3>
+<p>In a displacement-time graph, velocity is represented by the slope of the curve. A steeper slope indicates a higher velocity.</p>
 <hr/>
-<h3 id="vertical-motion"><strong>Vertical Motion</strong></h3>
-<p>The vertical motion is uniformly accelerated due to gravity.<br/>
-- <strong>Vertical velocity:</strong><br/>
-  $$
-  u_y = u \sin \theta
-  $$ 
-  At any time <span class="arithmatex">\( t \)</span>, the vertical velocity is:<br/>
-  $$
-  v_y = u_y - g t = u \sin \theta - g t
-  $$<br/>
-- <strong>Vertical displacement:</strong><br/>
-  $$
-  y = u_y t - \frac{1}{2} g t^2 = u \sin \theta \cdot t - \frac{1}{2} g t^2
-  $$  </p>
+<h2 id="3-acceleration-a">3. Acceleration (<span class="arithmatex">\(a\)</span>)</h2>
+<p>Acceleration is the rate of change of velocity with respect to time. It describes how quickly an object speeds up or slows down.</p>
+<h3 id="formula_2">Formula:</h3>
+<div class="arithmatex">\[
+a = \frac{\Delta v}{\Delta t}
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(a\)</span>: Acceleration (a vector quantity)<br/>
+- <span class="arithmatex">\(\Delta v\)</span>: Change in velocity<br/>
+- <span class="arithmatex">\(\Delta t\)</span>: Change in time  </p>
+<h3 id="explanation_2">Explanation:</h3>
+<p>Acceleration quantifies how fast the velocity of an object changes. A positive acceleration indicates speeding up, while a negative acceleration (also called deceleration) indicates slowing down. For example, a car increasing its velocity from <span class="arithmatex">\(0 \, \text{m/s}\)</span> to <span class="arithmatex">\(20 \, \text{m/s}\)</span> in <span class="arithmatex">\(5 \, \text{seconds}\)</span> has an acceleration of <span class="arithmatex">\(4 \, \text{m/s}^2\)</span>.</p>
+<h3 id="graph_2">Graph:</h3>
+<p>In a velocity-time graph, acceleration is represented by the slope. A constant slope indicates constant acceleration, while a curved slope indicates changing acceleration.</p>
 <hr/>
-<h3 id="time-of-flight"><strong>Time of Flight</strong></h3>
-<p>The total time the projectile stays in the air:<br/>
-$$
-t_{\text{flight}} = \frac{2 u \sin \theta}{g}
-$$  </p>
+<h2 id="4-equations-of-motion-for-constant-acceleration">4. Equations of Motion (For Constant Acceleration)</h2>
+<p>The equations of motion are used to calculate displacement, velocity, and time when acceleration is constant.</p>
+<h3 id="equations">Equations:</h3>
+<ol>
+<li><span class="arithmatex">\(v = u + at\)</span> </li>
+<li>
+<p>Final velocity (<span class="arithmatex">\(v\)</span>) is equal to initial velocity (<span class="arithmatex">\(u\)</span>) plus acceleration (<span class="arithmatex">\(a\)</span>) multiplied by time (<span class="arithmatex">\(t\)</span>).</p>
+</li>
+<li>
+<p><span class="arithmatex">\(s = ut + \frac{1}{2}at^2\)</span> </p>
+</li>
+<li>
+<p>Displacement (<span class="arithmatex">\(s\)</span>) is calculated using initial velocity (<span class="arithmatex">\(u\)</span>), time (<span class="arithmatex">\(t\)</span>), and acceleration (<span class="arithmatex">\(a\)</span>).</p>
+</li>
+<li>
+<p><span class="arithmatex">\(v^2 = u^2 + 2as\)</span> </p>
+</li>
+<li>Relates the final velocity (<span class="arithmatex">\(v\)</span>) to the initial velocity (<span class="arithmatex">\(u\)</span>), acceleration (<span class="arithmatex">\(a\)</span>), and displacement (<span class="arithmatex">\(s\)</span>).</li>
+</ol>
+<h3 id="explanation_3">Explanation:</h3>
+<p>These equations are used to predict the motion of objects under constant acceleration. For example:
+- A ball dropped from rest can use these equations to calculate its velocity or displacement at any point during its fall.</p>
+<h3 id="graphs">Graphs:</h3>
+<p>Each equation corresponds to a specific type of graph:
+- <span class="arithmatex">\(v = u + at\)</span>: Velocity-time graph (straight line).<br/>
+- <span class="arithmatex">\(s = ut + \frac{1}{2}at^2\)</span>: Displacement-time graph (parabolic curve).<br/>
+- <span class="arithmatex">\(v^2 = u^2 + 2as\)</span>: Velocity-displacement graph (non-linear curve).</p>
 <hr/>
-<h3 id="range-r"><strong>Range (<span class="arithmatex">\( R \)</span>)</strong></h3>
-<p>The horizontal distance covered during the flight:<br/>
-$$
-R = \frac{u^2 \sin 2\theta}{g}
-$$  </p>
+<h2 id="5-summary-of-key-quantities-and-units">5. Summary of Key Quantities and Units</h2>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Symbol</th>
+<th>Formula</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Displacement</td>
+<td><span class="arithmatex">\(\vec{s}\)</span></td>
+<td><span class="arithmatex">\(\vec{x}_f - \vec{x}_i\)</span></td>
+<td>Meter (<span class="arithmatex">\(\text{m}\)</span>)</td>
+</tr>
+<tr>
+<td>Velocity</td>
+<td><span class="arithmatex">\(v\)</span></td>
+<td><span class="arithmatex">\(\frac{\Delta \vec{s}}{\Delta t}\)</span></td>
+<td>Meter/second (<span class="arithmatex">\(\text{m/s}\)</span>)</td>
+</tr>
+<tr>
+<td>Acceleration</td>
+<td><span class="arithmatex">\(a\)</span></td>
+<td><span class="arithmatex">\(\frac{\Delta v}{\Delta t}\)</span></td>
+<td>Meter/second² (<span class="arithmatex">\(\text{m/s}^2\)</span>)</td>
+</tr>
+</tbody>
+</table>
 <hr/>
-<h3 id="maximum-height-h_textmax"><strong>Maximum Height (<span class="arithmatex">\( h_{\text{max}} \)</span>)</strong></h3>
-<p>The highest point reached by the projectile:<br/>
-$$
-h_{\text{max}} = \frac{u^2 \sin^2 \theta}{2g}
-$$  </p>
-<hr/>
-<h3 id="trajectory-equation"><strong>Trajectory Equation</strong></h3>
-<p>Combining <span class="arithmatex">\( x \)</span> and <span class="arithmatex">\( y \)</span>:<br/>
-$$
-y = x \tan \theta - \frac{g x^2}{2 u^2 \cos^2 \theta}
-$$  </p>
-<p>This equation represents the parabolic path of the projectile.  </p>
-<hr/>
-<p>By applying these formulas, you can analyze and predict various aspects of projectile motion based on initial conditions like velocity and angle of projection.</p>
+<h2 id="graphical-summary">Graphical Summary</h2>
+<ol>
+<li><strong>Position-Time Graph</strong>:  </li>
+<li>Slope = Velocity  </li>
+<li>
+<p>Steeper slope = Higher velocity  </p>
+</li>
+<li>
+<p><strong>Velocity-Time Graph</strong>:  </p>
+</li>
+<li>Slope = Acceleration  </li>
+<li>
+<p>Area under curve = Displacement  </p>
+</li>
+<li>
+<p><strong>Acceleration-Time Graph</strong>:  </p>
+</li>
+<li>Area under curve = Change in velocity  </li>
+</ol>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
 <a class="btn btn-neutral float-left" href="../../.." title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-<a class="btn btn-neutral float-right" href="../Problem_2/" title="Problem 2">Next <span class="icon icon-circle-arrow-right"></span></a>
+<a class="btn btn-neutral float-right" href="../Problem_2/" title="Problem 2 - Velocity (\(v\))">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
 <hr/>
 <div role="contentinfo">
