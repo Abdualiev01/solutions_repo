@@ -6,13 +6,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Problem 3 - Physics and Mathematics</title>
+<title>Problem 3 - Escape Velocity (\(v_e\)) - Physics and Mathematics</title>
 <link href="../../../css/theme.css" rel="stylesheet"/>
 <link href="../../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Problem 3";
+        var mkdocs_page_name = "Problem 3 - Escape Velocity (\\(v_e\\))";
         var mkdocs_page_input_path = "1 Physics/2 Gravity/Problem_3.md";
         var mkdocs_page_url = null;
       </script>
@@ -54,12 +54,30 @@
 </li>
 <li class="toctree-l1 current"><a class="reference internal current">2 Gravity</a>
 <ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../Problem_1/">Problem 1</a>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_1/">Problem 1 - Gravitational Force (\(F\))</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2 - Acceleration Due to Gravity (\(g\))</a>
 </li>
-<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 3</a>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 3 - Escape Velocity (\(v_e\))</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#formula">Formula:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#explanation">Explanation:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#graph">Graph:</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#escape-velocity-vs-mass-v_e-vs-m">Escape Velocity vs. Mass (\(v_e\) vs. \(M\)):</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#example-problem">Example Problem:</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#question">Question:</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#solution">Solution:</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -120,7 +138,7 @@
 <li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
 <li class="breadcrumb-item">1 Physics</li>
 <li class="breadcrumb-item">2 Gravity</li>
-<li class="breadcrumb-item active">Problem 3</li>
+<li class="breadcrumb-item active">Problem 3 - Escape Velocity (\(v_e\))</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -128,11 +146,54 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="problem-3">Problem 3</h1>
+<h1 id="problem-3-escape-velocity-v_e">Problem 3 - Escape Velocity (<span class="arithmatex">\(v_e\)</span>)</h1>
+<p>Escape velocity is the minimum velocity an object must have to escape a planet’s gravitational pull without further propulsion.</p>
+<hr/>
+<h2 id="formula">Formula:</h2>
+<div class="arithmatex">\[
+v_e = \sqrt{\frac{2 G M}{r}}
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(v_e\)</span>: Escape velocity (in <span class="arithmatex">\(\text{m/s}\)</span>)<br/>
+- <span class="arithmatex">\(G\)</span>: Gravitational constant <span class="arithmatex">\((6.674 \times 10^{-11} \, \text{N·m}^2/\text{kg}^2)\)</span><br/>
+- <span class="arithmatex">\(M\)</span>: Mass of the celestial body (e.g., Earth)<br/>
+- <span class="arithmatex">\(r\)</span>: Radius of the celestial body  </p>
+<hr/>
+<h2 id="explanation">Explanation:</h2>
+<p>Escape velocity depends on the mass and radius of the celestial body. For Earth:
+- <span class="arithmatex">\(M = 5.972 \times 10^{24} \, \text{kg}\)</span><br/>
+- <span class="arithmatex">\(r = 6.371 \times 10^6 \, \text{m}\)</span></p>
+<p>Substituting these values gives Earth’s escape velocity as approximately <span class="arithmatex">\(11.2 \, \text{km/s}\)</span>.</p>
+<hr/>
+<h2 id="graph">Graph:</h2>
+<h3 id="escape-velocity-vs-mass-v_e-vs-m">Escape Velocity vs. Mass (<span class="arithmatex">\(v_e\)</span> vs. <span class="arithmatex">\(M\)</span>):</h3>
+<ul>
+<li>Escape velocity increases as the mass of the celestial body increases. The graph is a square root function.</li>
+</ul>
+<hr/>
+<h2 id="example-problem">Example Problem:</h2>
+<h4 id="question">Question:</h4>
+<p>Find the escape velocity for the Moon.<br/>
+Given:<br/>
+- <span class="arithmatex">\(M = 7.35 \times 10^{22} \, \text{kg}\)</span><br/>
+- <span class="arithmatex">\(r = 1.74 \times 10^6 \, \text{m}\)</span></p>
+<h4 id="solution">Solution:</h4>
+<p>Using the formula:<br/>
+[
+v_e = \sqrt{\frac{2 G M}{r}}
+]</p>
+<p>Substitute the values:<br/>
+[
+v_e = \sqrt{\frac{2 (6.674 \times 10^{-11})(7.35 \times 10^{22})}{1.74 \times 10^6}}
+]<br/>
+[
+v_e \approx 2.38 \, \text{km/s}.
+]</p>
+<p>The escape velocity for the Moon is approximately <span class="arithmatex">\(2.38 \, \text{km/s}\)</span>.</p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
-<a class="btn btn-neutral float-left" href="../Problem_2/" title="Problem 2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-left" href="../Problem_2/" title="Problem 2 - Acceleration Due to Gravity (\(g\))"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 <a class="btn btn-neutral float-right" href="../../3%20Waves/Problem_1/" title="Problem 1">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
 <hr/>
