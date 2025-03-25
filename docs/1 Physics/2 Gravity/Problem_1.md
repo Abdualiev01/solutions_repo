@@ -40,16 +40,16 @@ Find the gravitational force between two objects with masses \(5 \, \text{kg}\) 
 
 #### Solution:
 Using the formula:  
-\[
+\(
 F = G \frac{m_1 m_2}{r^2}
-\]  
+\)  
 Substitute the values:  
-\[
+\(
 F = (6.674 \times 10^{-11}) \frac{(5)(10)}{2^2}
-\]  
-\[
+\)
+\(
 F = 8.34 \times 10^{-11} \, \text{N}.
-\]
+\)
 
 The gravitational force between the objects is \(8.34 \times 10^{-11} \, \text{N}\).
 

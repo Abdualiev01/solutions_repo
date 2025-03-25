@@ -47,20 +47,20 @@ Given:
 
 Using the formula:
 
-\[
+\(
 v_e = \sqrt{\frac{2 G M}{r}}
-\]
+\)
 
 Substitute the known values:
 
-\[
+\(
 v_e = \sqrt{\frac{2 (6.674 \times 10^{-11})(7.35 \times 10^{22})}{1.74 \times 10^6}}
-\]
+\)
 
 After calculating:
 
-\[
+\(
 v_e \approx 2.38 \, \text{km/s}
-\]
+\)
 
 The escape velocity for the Moon is approximately \(2.38 \, \text{km/s}\).

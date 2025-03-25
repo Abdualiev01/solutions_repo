@@ -38,18 +38,18 @@ What is the value of \(g\) at a height of \(500 \, \text{km}\) above Earth's sur
 
 #### Solution:
 1. Total distance from the Earth's center:  
-   \[
+   \(
    r = 6.371 \times 10^6 + 500 \times 10^3 = 6.871 \times 10^6 \, \text{m}.
-   \]
+   \)
 
 2. Substitute into the formula:  
-   \[
+   \(
    g = \frac{(6.674 \times 10^{-11})(5.972 \times 10^{24})}{(6.871 \times 10^6)^2}.
-   \]  
+   \)  
 
 3. Simplify:  
-   \[
+   \(
    g \approx 8.69 \, \text{m/s}^2.
-   \]
+   \)
 
 At \(500 \, \text{km}\) above Earth, the acceleration due to gravity is approximately \(8.69 \, \text{m/s}^2\).
