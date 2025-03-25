@@ -1,85 +1,120 @@
-# Problem 1
+# Problem 1 - Description of Motion
 
-Projectile motion involves the motion of an object launched into the air under the influence of gravity, following a parabolic trajectory. It is analyzed in two components: horizontal and vertical motion, which are independent of each other. Here’s a detailed breakdown with formulas:
-
----
-
-### **Key Variables**  
-- \( u \): Initial velocity  
-- \( \theta \): Angle of projection  
-- \( g \): Acceleration due to gravity (\( 9.8 \, \text{m/s}^2 \))  
-- \( t \): Time of flight  
-- \( R \): Range (horizontal distance covered)  
-- \( h_{\text{max}} \): Maximum height  
-- \( x \): Horizontal displacement  
-- \( y \): Vertical displacement  
+Motion describes the change in position of an object over time. It is categorized using several measurable quantities such as displacement, velocity, acceleration, and time. Below is a detailed explanation with formulas and descriptions.
 
 ---
 
-### **Horizontal Motion**  
-The horizontal motion is uniform because there is no horizontal acceleration (ignoring air resistance).  
-- **Horizontal velocity:**  
-  
-  $$  
-  u_x = u \cos theta
-  $$
-    
-- **Horizontal displacement:**  
-  $$
-  x = u_x t = u \cos \theta \cdot 
-  \$$  
+## 1. Displacement (\(\vec{s}\))
+
+Displacement is the shortest distance between the initial and final positions of an object, along with the direction.
+
+### Formula:
+\[
+\vec{s} = \vec{x}_f - \vec{x}_i
+\]
+
+Where:  
+- \(\vec{s}\): Displacement (a vector quantity with magnitude and direction)  
+- \(\vec{x}_f\): Final position (vector)  
+- \(\vec{x}_i\): Initial position (vector)  
+
+### Explanation:
+This formula calculates the displacement, which shows how far an object has moved and in what direction. For example, if an object starts at \(x = 0\) and moves to \(x = 10 \, \text{m}\), the displacement is \(10 \, \text{m}\) forward.
+
+### Graph:
+In a position-time graph, displacement can be visualized as the vertical difference between two points on the curve.
 
 ---
 
-### **Vertical Motion**  
-The vertical motion is uniformly accelerated due to gravity.  
-- **Vertical velocity:**  
-  $$
-  u_y = u \sin \theta
-  $$ 
-  At any time \( t \), the vertical velocity is:  
-  $$
-  v_y = u_y - g t = u \sin \theta - g t
-  $$  
-- **Vertical displacement:**  
-  $$
-  y = u_y t - \frac{1}{2} g t^2 = u \sin \theta \cdot t - \frac{1}{2} g t^2
-  $$  
+## 2. Velocity (\(v\))
+
+Velocity is the rate of change of displacement with respect to time. It describes how fast an object is moving and in which direction.
+
+### Formula:
+\[
+v = \frac{\Delta \vec{s}}{\Delta t}
+\]
+
+Where:  
+- \(v\): Velocity (a vector quantity)  
+- \(\Delta \vec{s}\): Displacement (change in position)  
+- \(\Delta t\): Change in time  
+
+### Explanation:
+Velocity measures how quickly displacement changes over time. It is different from speed, as it includes direction. For example, a car moving at \(60 \, \text{km/h}\) east has a velocity of \(60 \, \text{km/h}\) east.
+
+### Graph:
+In a displacement-time graph, velocity is represented by the slope of the curve. A steeper slope indicates a higher velocity.
 
 ---
 
-### **Time of Flight**  
-The total time the projectile stays in the air:  
-$$
-t_{\text{flight}} = \frac{2 u \sin \theta}{g}
-$$  
+## 3. Acceleration (\(a\))
+
+Acceleration is the rate of change of velocity with respect to time. It describes how quickly an object speeds up or slows down.
+
+### Formula:
+\[
+a = \frac{\Delta v}{\Delta t}
+\]
+
+Where:  
+- \(a\): Acceleration (a vector quantity)  
+- \(\Delta v\): Change in velocity  
+- \(\Delta t\): Change in time  
+
+### Explanation:
+Acceleration quantifies how fast the velocity of an object changes. A positive acceleration indicates speeding up, while a negative acceleration (also called deceleration) indicates slowing down. For example, a car increasing its velocity from \(0 \, \text{m/s}\) to \(20 \, \text{m/s}\) in \(5 \, \text{seconds}\) has an acceleration of \(4 \, \text{m/s}^2\).
+
+### Graph:
+In a velocity-time graph, acceleration is represented by the slope. A constant slope indicates constant acceleration, while a curved slope indicates changing acceleration.
 
 ---
 
-### **Range (\( R \))**  
-The horizontal distance covered during the flight:  
-$$
-R = \frac{u^2 \sin 2\theta}{g}
-$$  
+## 4. Equations of Motion (For Constant Acceleration)
+
+The equations of motion are used to calculate displacement, velocity, and time when acceleration is constant.
+
+### Equations:
+1. \(v = u + at\)  
+   - Final velocity (\(v\)) is equal to initial velocity (\(u\)) plus acceleration (\(a\)) multiplied by time (\(t\)).
+
+2. \(s = ut + \frac{1}{2}at^2\)  
+   - Displacement (\(s\)) is calculated using initial velocity (\(u\)), time (\(t\)), and acceleration (\(a\)).
+
+3. \(v^2 = u^2 + 2as\)  
+   - Relates the final velocity (\(v\)) to the initial velocity (\(u\)), acceleration (\(a\)), and displacement (\(s\)).
+
+### Explanation:
+These equations are used to predict the motion of objects under constant acceleration. For example:
+- A ball dropped from rest can use these equations to calculate its velocity or displacement at any point during its fall.
+
+### Graphs:
+Each equation corresponds to a specific type of graph:
+- \(v = u + at\): Velocity-time graph (straight line).  
+- \(s = ut + \frac{1}{2}at^2\): Displacement-time graph (parabolic curve).  
+- \(v^2 = u^2 + 2as\): Velocity-displacement graph (non-linear curve).
 
 ---
 
-### **Maximum Height (\( h_{\text{max}} \))**  
-The highest point reached by the projectile:  
-$$
-h_{\text{max}} = \frac{u^2 \sin^2 \theta}{2g}
-$$  
+## 5. Summary of Key Quantities and Units
+
+| Quantity        | Symbol         | Formula                        | Unit           |
+|-----------------|---------------|--------------------------------|----------------|
+| Displacement    | \(\vec{s}\)    | \(\vec{x}_f - \vec{x}_i\)       | Meter (\(\text{m}\)) |
+| Velocity        | \(v\)         | \(\frac{\Delta \vec{s}}{\Delta t}\) | Meter/second (\(\text{m/s}\)) |
+| Acceleration    | \(a\)         | \(\frac{\Delta v}{\Delta t}\)       | Meter/second² (\(\text{m/s}^2\)) |
 
 ---
 
-### **Trajectory Equation**  
-Combining \( x \) and \( y \):  
-$$
-y = x \tan \theta - \frac{g x^2}{2 u^2 \cos^2 \theta}
-$$  
+## Graphical Summary
 
-This equation represents the parabolic path of the projectile.  
+1. **Position-Time Graph**:  
+   - Slope = Velocity  
+   - Steeper slope = Higher velocity  
 
---- 
+2. **Velocity-Time Graph**:  
+   - Slope = Acceleration  
+   - Area under curve = Displacement  
 
-By applying these formulas, you can analyze and predict various aspects of projectile motion based on initial conditions like velocity and angle of projection.
+3. **Acceleration-Time Graph**:  
+   - Area under curve = Change in velocity  
