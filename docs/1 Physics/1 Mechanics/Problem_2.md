@@ -121,9 +121,7 @@ A car starts from rest and accelerates uniformly at \(2 \, \text{m/s}^2\) for \(
 
 1. **Final velocity**:  
    Using the formula \(v = u + at\), where \(u\) is the initial velocity, \(a\) is acceleration, and \(t\) is time:  
-   \[
-   v = 0 + (2)(5) = 10 \, \text{m/s}
-   \]  
+   v = 0 + (2)(5) = 10 \, \text{m/s}  
    The final velocity is \(10 \, \text{m/s}\).
 
 2. **Displacement**:  
